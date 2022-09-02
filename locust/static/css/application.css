@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #173529;
+  background: linear-gradient(45deg, #1879BC, #4BC6FE);
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +24,7 @@ ul {
 }
 
 a {
-  color: #2be6a4;
+  color: #013f62;
   text-decoration: none;
 }
 a:hover {
@@ -34,7 +34,7 @@ a:hover {
 table.stats {
   width: 100%;
   border-radius: 3px;
-  border: 2px solid #11251c;
+  border: 2px solid #004E7A;
   border-spacing: 0;
   margin-bottom: 30px;
 }
@@ -44,13 +44,13 @@ table.stats thead {
   color: #a9c5ba;
 }
 table.stats thead tr {
-  background: #11251c;
+  background: #004E7A;
 }
 table.stats thead tr:nth-child(even) {
-  background: #11251c;
+  background: #004E7A;
 }
 table.stats thead tr:hover {
-  background: #11251c;
+  background: #004E7A;
 }
 table.stats thead th {
   font-weight: bold;
@@ -63,7 +63,7 @@ table.stats thead th[data-sortkey] {
   cursor: pointer;
 }
 table.stats tr:hover {
-  background: #1d4434;
+  background: #004E7A;
 }
 table.stats tr td, table.stats tr th {
   padding: 10px;
@@ -92,13 +92,13 @@ table.stats tr td {
   }
 }
 table.stats tr:nth-child(even) {
-  background: #153126;
+  background: #004E7A;
 }
 table.stats tr:nth-child(even):hover {
-  background: #1d4434;
+  background: #004E7A;
 }
 table.stats tr.total {
-  background: #11251c;
+  background: #013f62;
 }
 table.stats tr.total td {
   font-weight: bold;
@@ -122,7 +122,7 @@ table.stats tr.total td {
 }
 .top .top-content .logo {
   float: left;
-  width: 200px;
+  width: 70px;
   height: 48px;
   margin-top: 2px;
 }
@@ -252,10 +252,10 @@ body.running .top .top-content .boxes .top_box.box_status .edit-test, body.spawn
 }
 .dialogs .dialog .padder {
   padding: 30px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .dialogs .dialog h2 {
-  color: #addf82;
+  color: #FF9819;
   font-size: 26px;
   font-weight: bold;
 }
@@ -264,14 +264,6 @@ body.running .top .top-content .boxes .top_box.box_status .edit-test, body.spawn
   margin-bottom: 10px;
   margin-top: 20px;
   font-size: 16px;
-}
-.dialogs .dialog select {
-  border: none;
-  background: #fff;
-  width: 340px;
-  font-size: 18px;
-  padding-left: 10px;
-  overflow-x: scroll;
 }
 .dialogs .dialog input.val {
   border: none;
@@ -294,7 +286,7 @@ body.running .top .top-content .boxes .top_box.box_status .edit-test, body.spawn
   float: right;
   font-size: 16px;
   font-weight: bold;
-  background: #8adaba;
+  background: #FF9819;
   padding: 14px 30px;
   border-style: none;
   border-radius: 5px;
@@ -345,7 +337,7 @@ body.ready .main {
   display: none;
 }
 .main nav.menu {
-  background: #132b21;
+  background: #004E7A;
 }
 .main nav.menu ul.tabs {
   overflow: hidden;
@@ -364,7 +356,7 @@ body.ready .main {
   font-size: 14px;
 }
 .main nav.menu ul.tabs > li a:hover {
-  background: #10211a;
+  background: #013f62;
 }
 .main nav.menu ul.tabs > li a.current {
   color: #fff;
@@ -430,17 +422,17 @@ body.ready .main {
   width: 398px;
   position: absolute;
   left: 50%;
-  top: 5%;
+  top: 5px;
   margin-left: -169px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border: 3px solid #eee;
-  background: #132b21;
+  background: #004E7A;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
-  z-index: 100;
+  z-index: 1;
 }
-a.close_link {
+.about a.close_link {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -448,6 +440,9 @@ a.close_link {
 .about .padder {
   padding: 30px;
   padding-top: 0px;
+}
+.about a {
+  color: #b3c3bc;
 }
 
 .tasks ul {
@@ -458,7 +453,7 @@ a.close_link {
   position: absolute;
   bottom: 0;
   padding: 12px 0;
-  background: #132b21;
+  background: #004E7A;
   width: 100%;
   text-align: right;
   box-sizing: border-box;
@@ -466,14 +461,7 @@ a.close_link {
 }
 .footer a {
   margin-right: 10px;
-  color: #48a584;
+  color: #b3c3bc;
 }
-
-.userClass {
-    height: 100px;
-  }
-.shapeClass {
-    height: 25px;
-  }
 
 /*# sourceMappingURL=application.css.map */

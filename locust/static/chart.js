@@ -62,7 +62,7 @@
                         color: '#b3c3bc',
                         fontSize: 13,
                     },
-                    backgroundColor: 'rgba(21,35,28, 0.93)',
+                    backgroundColor: '#1879BC',
                     borderWidth: 0,
                     extraCssText: "z-index:1;",
                 },
